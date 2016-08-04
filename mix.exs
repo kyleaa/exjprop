@@ -31,7 +31,7 @@ defmodule Exjprop.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:ex_aws, "~> 0.4.15"},
+      {:ex_aws, "~> 1.0.0-beta0"},
       {:sweet_xml, "~> 0.6.1"},
       {:httpoison, "~> 0.8.1"},
       {:earmark, "~> 0.2.1", only: :dev},
